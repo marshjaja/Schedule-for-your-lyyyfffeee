@@ -109,4 +109,11 @@ setInterval(function () {
 	updateHour();
 }, 15 * 60 * 1000);
 
+// Populate the day selector with three days
+for (var i = 1; i <= 3; i++) {
+	$("#daySelector").append(
+		'<option value="day' + i + '">Day ' + i + "</option>"
+	);
+}
+
 // localStorage.clear();
