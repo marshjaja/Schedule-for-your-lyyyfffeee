@@ -37,13 +37,7 @@ Persist events between refreshes of a page
 - better handling of the hide logic if no day is chosen to schedule in
 
 
-Organize individual values in the textures onto distinct lines for separate storage.
 
-Verify that the Remove button deletes values on a per-line basis within the texture, rather than removing everything associated with a single hour timeframe ID.
-
-Refine the logic and management of displayed dates to ensure accuracy.
-
-Enhance the logic governing the visibility of elements when no day is selected for scheduling.
 
 <h1>SCREENSHOTS📷</h1>
 <img width="1035" alt="Screenshot 2023-12-12 at 19 17 02" src="https://github.com/marshjaja/Marcias-password-generator/assets/114920895/92838cda-ca6d-423c-b8c1-f14643bfa95e">
