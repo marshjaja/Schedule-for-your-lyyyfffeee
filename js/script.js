@@ -35,23 +35,41 @@ function updateHour() {
 }
 updateHour();
 
+//note - Save button functionality
 $(".saveBtn").on("click", function () {
+	// get value of textarea input by selected time and store in localstorage
 	var value = $(this).siblings(".description").val();
 	var time = $(this).parent().attr("id");
 
 	console.log("value:", value);
 	console.log("time:", time);
 
-	// Saving values into localStorage with a key based on selected day and time ID
+	// Saving values into localStorage timeId
 	localStorage.setItem(time, value);
 });
 
+//note - Getting the value from localstorage
 $(".time-block").each(function () {
+	// retrieve value from local storage
 	var hourId = $(this).attr("id");
 	var storedValue = localStorage.getItem(hourId);
 	$(this).find(".description").val(storedValue);
 });
+
+//note - Remove button functionality
+$(document).on("click", ".removeBtn", function () {
+	var textAreaInputToRemove = $(this).parent();
+	var hourContainer = textAreaInputToRemove.attr("id");
+	//remove item(s) from localstorage
+	localStorage.removeItem(hourContainer);
+
+	// Clear the textarea value
+	textAreaInputToRemove.find(".description").val("");
+});
+
 // Update hour ever 15 minutes
 setInterval(function () {
 	updateHour();
 }, 15 * 60 * 1000);
+
+// localStorage.clear();
