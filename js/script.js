@@ -33,13 +33,13 @@ $(document).ready(function () {
 
 		// Set selectedDay based on the selected index
 		if (selectedIndex === 0) {
-			selectedDay = dayjs().format("YYYY-MM-DD"); // Today
+			currentDay; // Today
 		} else if (selectedIndex === 1) {
-			selectedDay = dayjs().add(1, "day").format("YYYY-MM-DD"); // Tomorrow
+			currentDay;
 		} else if (selectedIndex === 2) {
-			selectedDay = dayjs().add(2, "day").format("YYYY-MM-DD"); // Day after tomorrow
+			selectedDay = dayjs().add(1, "day").format("YYYY-MM-DD"); // Day after tomorrow
 		} else if (selectedIndex === 3) {
-			selectedDay = dayjs().add(3, "day").format("YYYY-MM-DD"); // Day after tomorrow
+			selectedDay = dayjs().add(2, "day").format("YYYY-MM-DD"); // Day after tomorrow
 		}
 
 		// Retrieve and display stored values for the selected day
