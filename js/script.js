@@ -41,6 +41,24 @@ $(".saveBtn").on("click", function () {
 	var value = $(this).siblings(".description").val();
 	var time = $(this).parent().attr("id");
 
+	Swal.fire({
+		title: "Schedule Item Added!",
+		showClass: {
+			popup: `
+			animate__animated
+			animate__fadeInUp
+			animate__faster
+		  `,
+		},
+		hideClass: {
+			popup: `
+			animate__animated
+			animate__fadeOutDown
+			animate__faster
+		  `,
+		},
+	});
+
 	console.log("value:", value);
 	console.log("time:", time);
 
@@ -60,11 +78,30 @@ $(".time-block").each(function () {
 $(document).on("click", ".removeBtn", function () {
 	var textAreaInputToRemove = $(this).parent();
 	var hourContainer = textAreaInputToRemove.attr("id");
-	//remove item(s) from localstorage
-	localStorage.removeItem(hourContainer);
 
-	// Clear the textarea value
-	textAreaInputToRemove.find(".description").val("");
+	Swal.fire({
+		title: "Delete Item?",
+		icon: "warning",
+		showCancelButton: true,
+		confirmButtonColor: "#28a745",
+		cancelButtonColor: "#d33",
+		confirmButtonText: "Yes, remove it!",
+	}).then((result) => {
+		if (result.isConfirmed) {
+			// Remove the value(s) from localStorage
+			localStorage.removeItem(hourContainer);
+
+			// Clear the textarea value
+			textAreaInputToRemove.find(".description").val("");
+
+			// Provide feedback to the user
+			Swal.fire({
+				title: "Removed!",
+				text: "Schedule item successfully deleted",
+				icon: "success",
+			});
+		}
+	});
 });
 
 // Update hour ever 15 minutes
