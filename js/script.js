@@ -25,6 +25,12 @@ $(document).ready(function () {
 	$("#daySelector").on("change", function () {
 		var selectedIndex = this.selectedIndex;
 
+		if (selectedIndex === 0) {
+			$("#scheduleContainer").hide();
+		} else {
+			$("#scheduleContainer").show();
+		}
+
 		// Set selectedDay based on the selected index
 		if (selectedIndex === 0) {
 			selectedDay = dayjs().format("YYYY-MM-DD"); // Today
