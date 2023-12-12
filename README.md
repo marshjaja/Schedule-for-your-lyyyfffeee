@@ -30,12 +30,35 @@ Save the event in local storage when the save button is clicked in that timebloc
 Persist events between refreshes of a page
 
 
+# Things I want to improve(these are just a few...):
+- Organize individual values for the textareas inputs, so they have separate storage.
+- Remove button removes per line in textareas, so if the delete button is pressed not everything will be removed in the hour time/ timeid
+- better logic and handle of the dates thats are being displayed , correctness
+- better handling of the hide logic if no day is chosen to schedule in
+
+
+Organize individual values in the textures onto distinct lines for separate storage.
+
+Verify that the Remove button deletes values on a per-line basis within the texture, rather than removing everything associated with a single hour timeframe ID.
+
+Refine the logic and management of displayed dates to ensure accuracy.
+
+Enhance the logic governing the visibility of elements when no day is selected for scheduling.
 
 <h1>SCREENSHOTS📷</h1>
+<img width="1035" alt="Screenshot 2023-12-12 at 19 17 02" src="https://github.com/marshjaja/Marcias-password-generator/assets/114920895/92838cda-ca6d-423c-b8c1-f14643bfa95e">
+<img width="1035" alt="Screenshot 2023-12-12 at 19 22 09" src="https://github.com/marshjaja/Marcias-password-generator/assets/114920895/c4703c9a-a535-49ee-b0ac-efd90fb38f65">
+<img width="1035" alt="Screenshot 2023-12-12 at 19 22 21" src="https://github.com/marshjaja/Marcias-password-generator/assets/114920895/5be1b16e-6e9f-4563-9105-3f627db8a2f5">
+<img width="1035" alt="Screenshot 2023-12-12 at 19 21 55" src="https://github.com/marshjaja/Marcias-password-generator/assets/114920895/7ca83ab3-0062-4b44-88cf-30a1f237685a">
+
+
+
+
+
 
 
 <h1> VIDEO 📹</h1>
-
+https://www.loom.com/share/1a71c406f89345fbaecdf547e1532147
 
 
 <h1>GETTING STARTED❗</h1>
