@@ -94,3 +94,14 @@ header {
 	transition: all 0.1s ease-in-out;
 	background: #ee616f;
 }
+
+.rupaul img {
+	width: 300px;
+	border-radius: 50%;
+	margin-bottom: 15px;
+}
+.rupaul h2 {
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-weight: 900;
+}

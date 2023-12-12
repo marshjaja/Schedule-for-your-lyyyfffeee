@@ -2,7 +2,7 @@ dayjs.extend(window.dayjs_plugin_advancedFormat);
 
 // Display the date of today formatted as day, months, date with suffix, year
 $(document).ready(function () {
-	var currentDay = $("#currentDay-1");
+	var currentDay = $("#currentDay");
 	var todaysDay = dayjs().format("dddd, MMMM Do YYYY");
 	currentDay.text(todaysDay);
 	console.log(todaysDay);
