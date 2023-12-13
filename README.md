@@ -41,10 +41,8 @@ Persist events between refreshes of a page
 
 <h1>SCREENSHOTS📷</h1>
 <img width="1035" alt="Screenshot 2023-12-12 at 19 17 02" src="https://github.com/marshjaja/Marcias-password-generator/assets/114920895/92838cda-ca6d-423c-b8c1-f14643bfa95e">
-<img width="1035" alt="Screenshot 2023-12-12 at 19 22 09" src="https://github.com/marshjaja/Marcias-password-generator/assets/114920895/c4703c9a-a535-49ee-b0ac-efd90fb38f65">
-<img width="1035" alt="Screenshot 2023-12-12 at 19 22 21" src="https://github.com/marshjaja/Marcias-password-generator/assets/114920895/5be1b16e-6e9f-4563-9105-3f627db8a2f5">
-<img width="1035" alt="Screenshot 2023-12-12 at 19 21 55" src="https://github.com/marshjaja/Marcias-password-generator/assets/114920895/7ca83ab3-0062-4b44-88cf-30a1f237685a">
-
+<img width="1286" alt="Screenshot 2023-12-13 at 11 52 05" src="https://github.com/marshjaja/Schedule-for-your-lyyyfffeee/assets/114920895/75d53f51-df2d-43cf-96c4-47a1eaf3aebd">
+<img width="1035" alt="Screenshot 2023-12-12 at 19 21 55" src="https://github.com/marshjaja/Marcias-password-generator/assets/114920895/7ca83ab3-0062-4b44-88cf-30a1f237685a"><img width="1035" alt="Screenshot 2023-12-12 at 19 22 21" src="https://github.com/marshjaja/Marcias-password-generator/assets/114920895/5be1b16e-6e9f-4563-9105-3f627db8a2f5">
 
 
 
@@ -52,7 +50,9 @@ Persist events between refreshes of a page
 
 
 <h1> VIDEO 📹</h1>
-https://www.loom.com/share/1a71c406f89345fbaecdf547e1532147
+
+https://www.loom.com/share/4faded90ddc7482abcfc676abeaf3563
+
 
 
 <h1>GETTING STARTED❗</h1>
